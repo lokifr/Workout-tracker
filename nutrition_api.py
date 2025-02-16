@@ -3,8 +3,8 @@ from datetime import datetime
 import os 
 
 
-APP_ID = "d88a6fb0"
-API_KEY = "6fe483f7673b922976a5f94ab636c2ee"
+APP_ID = "id"
+API_KEY = "key"
 # APP_ID = os.environ["NT_APP_ID"]
 # API_KEY = os.environ["NT_API_KEY"]
 
@@ -52,7 +52,7 @@ for exercise in result["exercises"]:
     }
 
 bearer_headers = { 
-    "Authorization":"Bearer gE83JOoZfAF4Yq4" }
+    "Authorization":"Bearer xxxxx" }
 
  
 sheety_response = requests.post(
